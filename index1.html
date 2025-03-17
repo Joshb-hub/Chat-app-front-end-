@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Chat Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="index1_body">
+    <div class="index1_container">
+        <header>
+            <div class="index1_logo">
+                <img src="blue-chat-bubbles-on-vivid-background-conversation-concept-3d-illustration-vector-removebg-preview.png" alt="Your Logo">
+            </div>
+            <nav>
+                <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+                <ul class="nav-links">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">FEATURES</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">FEEDBACK</a></li>
+                    <li><a href="#" class="sign-up" onclick="showRegister()">Sign up</a></li>
+                    <li><a href="#" class="sign-in" onclick="showLogin()">Sign in</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Seamless Conversations, Anytime, Anywhere!</h1>
+                <p>Stay connected effortlessly with secure, high-speed messaging, crystal-clear voice & video calls, and fun interactive features – all in one app!</p>
+                <a href="#">Start Chatting Instantly! →</a>
+            </div>
+            <div class="hero-image">
+                <img src="browsing-social-media-with-cartoon-character_1308-118768-removebg-preview.png" alt="Hero Image">
+            </div>
+        </section>
+    </div>
+</div>
+
+    <script>
+        const menuToggle = document.querySelector(".menu-toggle");
+        const navLinks = document.querySelector(".nav-links");
+
+        menuToggle.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
