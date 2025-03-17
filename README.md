@@ -1,5 +1,3 @@
-# Chat-app-front-end-
-
 
 # Chat App Front-End
 
